@@ -1,0 +1,32 @@
+#container{
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1fr 10fr 2.5fr;
+    grid-template-areas: "n" "v" "f";
+}
+
+#nav{
+    grid-area: n;
+    background-color:forestgreen;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#main{
+    grid-area: v;
+    background-color: mediumseagreen;
+}
+
+#footer{
+    grid-area: f;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+}
+
+
+
